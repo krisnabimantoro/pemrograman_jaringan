@@ -36,7 +36,7 @@ if __name__ == "__main__":
         print(f"Umur: {umur}")
 
         response = f"Data diterima!\nNama: {input_nama}, NIM: {input_nim}, Tahun Lahir: {input_tahun}, Umur: {umur} tahun"
-        
+
         client.send(response.encode("utf-8"))
 
         client.close()
